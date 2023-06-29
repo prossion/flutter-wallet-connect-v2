@@ -326,7 +326,7 @@ class _HomeViewState extends State<HomeView> with WidgetsBindingObserver {
                               TextButton(
                                   onPressed: () {
                                     Clipboard.setData(
-                                        ClipboardData(text: _uriDisplay));
+                                        ClipboardData(text: _uriDisplay!));
                                   },
                                   child: const Text('Copy')),
                               TextButton(
